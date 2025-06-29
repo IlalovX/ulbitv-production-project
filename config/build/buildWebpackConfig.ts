@@ -8,7 +8,7 @@ import { BuildOptions } from './types/config'
 export function buildWebpackConfig(options: BuildOptions): Configuration {
 	return {
 		mode: options.mode,
-		resolve: buildResolvers(),
+		resolve: buildResolvers(options),
 		entry: options.paths.entry,
 		output: {
 			filename: '[name].[contenthash].js',

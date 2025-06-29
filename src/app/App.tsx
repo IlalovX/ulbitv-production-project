@@ -1,10 +1,10 @@
+import { AboutPage } from 'pages/about'
+import { HomePage } from 'pages/home'
 import React, { Suspense } from 'react'
 import { NavLink, Route, Routes } from 'react-router'
-import { classNames } from './helpers/classNames/classNames'
-import { AboutPage } from './pages/about/About.async'
-import { HomePage } from './pages/home/Home.async'
+import { classNames } from 'shared/lib/helpers/classNames/classNames'
+import { useTheme } from './providers/ThemeProvider'
 import './styles/index.scss'
-import { useTheme } from './theme/useTheme'
 
 export default function App() {
 	const { theme, toggleTheme } = useTheme()
