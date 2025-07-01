@@ -1,5 +1,9 @@
 {
 	"Тестовый перевод": "Test translate",
 	"Перевод": "Translate",
-	"Язык": "English"
+	"Язык": "English",
+
+	"toggle": "toggle",
+	"main": "Main",
+	"about": "About"
 }

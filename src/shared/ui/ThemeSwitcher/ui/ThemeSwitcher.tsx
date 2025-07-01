@@ -6,6 +6,7 @@ import {
 } from 'shared/assets/icons/theme-light.svg'
 import { classNames } from 'shared/lib/classNames/classNames'
 import { Button, ThemeButton } from 'shared/ui/Button/Button'
+
 interface ThemeSwitcherProps {
 	className?: string
 }
