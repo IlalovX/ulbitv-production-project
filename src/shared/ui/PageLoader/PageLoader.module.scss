@@ -1,0 +1,32 @@
+.PageLoader {
+	min-height: calc(100vh - var(--navbar-height));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	.loader {
+		width: 15px;
+		aspect-ratio: 1;
+		border-radius: 50%;
+		animation: l5 1s infinite linear alternate;
+		background: var(--inverted-bg-color);
+	}
+	@keyframes l5 {
+		0% {
+			box-shadow: 20px 0 #000, -20px 0 #0002;
+			opacity: 0;
+		}
+		33% {
+			box-shadow: 20px 0 #000, -20px 0 #0002;
+			opacity: 0.2;
+		}
+		66% {
+			box-shadow: 20px 0 #0002, -20px 0 #000;
+			opacity: 0.2;
+		}
+		100% {
+			box-shadow: 20px 0 #0002, -20px 0 #000;
+			opacity: 1;
+		}
+	}
+}

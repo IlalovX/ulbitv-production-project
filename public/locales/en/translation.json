@@ -5,5 +5,10 @@
 
 	"toggle": "toggle",
 	"main": "Main",
-	"about": "About"
+	"about": "About",
+	"Страница не найдено": "Page not found",
+	"Обновить страницу": "Reload page",
+	"errorBoundary": {
+		"fallback": "Something went wrong."
+	}
 }
